@@ -6,7 +6,7 @@ description   = "Tinkering about with Nim"
 license       = "MIT"
 srcDir        = "src"
 installExt    = @["nim"]
-bin           = @["tinker"]
+bin           = @["main"]
 
 
 # Dependencies
