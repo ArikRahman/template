@@ -6,7 +6,9 @@ Howdy! This is a pretty nice template for Nim to get started on a codium project
 # Prerequisites
 
 MNV: Nim 1.6.10  
-Nimsaem's Nim Extension
+
+Nimsaem's Nim Extension  
+
 
 (For Debugging)  
 
