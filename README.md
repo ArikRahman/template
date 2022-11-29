@@ -17,4 +17,4 @@ CodeLLDB
 Clangd  
 
 
-THat's it! Best wishes.
+That's it! Best wishes.
