@@ -24,7 +24,8 @@
             "request": "launch",
             "name": "nim: debug current file",
             "preLaunchTask": "nim: build current file (for debugging)",
-            "program": "${workspaceFolder}/bin/${fileBasenameNoExtension}",
+            // "program": "${workspaceFolder}/app/${fileBasenameNoExtension}",
+            "program": "${workspaceFolder}/app/arch64",
             "args": [],
             "cwd": "${workspaceFolder}",
         }

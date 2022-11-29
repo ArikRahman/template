@@ -9,13 +9,19 @@
                 "compile",
                 "-g",
                 "--debugger:native",
-                "-o:${workspaceRoot}/bin/${fileBasenameNoExtension}",
+                "--mm:orc",
+                "-o:${workspaceRoot}/app/arch64",
                 "${relativeFile}"
             ],
             "options": {
                 "cwd": "${workspaceRoot}"
             },
             "type": "shell",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
