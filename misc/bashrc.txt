@@ -1,0 +1,18 @@
+# # How the bash rc file should look like
+# # ~/.bashrc
+# #
+
+# # If not running interactively, don't do anything
+# [[ $- != *i* ]] && return
+
+ alias ls='ls --color=auto'
+# PS1='[\u@\h \W]\$ '
+# . "$HOME/.cargo/env"
+
+
+export PATH=$PATH:"/home/arik/.choosenim/toolchains/nim-1.6.10/bin/"
+export PATH=$PATH:"/home/arik/.nimble/pkgs/moe-0.3.0"
+
+if command -v zellij &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ zellij ]] && [ -z "$ZELLIJ" ]; then
+  exec zellij
+fi
